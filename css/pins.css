@@ -1,0 +1,15 @@
+.pin {
+  padding: 1vw 0;
+}
+.img {
+  height: 20vw;
+  border-radius: 1vw;
+}
+.img:hover {
+  opacity: 0.65;
+}
+.img img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}

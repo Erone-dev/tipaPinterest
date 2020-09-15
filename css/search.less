@@ -1,0 +1,49 @@
+
+
+@dblue:#04537D;
+
+
+.loupe{
+    height: 1.3vw;
+    margin-bottom: -0.32vw;
+}
+
+.search{
+    border-bottom: 1px solid @dblue;
+    margin-left: auto;
+}
+
+.search-input{
+    display: flex;
+    input{
+        border: none;
+        padding-bottom: 0.32vw;
+        width: 11vw;
+        font-size: 0.84vw;
+    }
+}
+
+.clean{
+    display: block;
+    width:1.3vw;
+    height: 1.3vw;
+    margin-bottom: -0.32vw;
+}
+
+.clean-btn{
+    background: black;
+    width: 1.3vw;
+    height: 0.13vw;
+    position: relative;
+    top: 0.7vw;
+    transform: rotate(-45deg);
+    &::before{
+        content:'';
+        background-color: black;
+        width: 1.3vw;
+        height: 0.13vw;
+        position: absolute;
+        transform: rotate(90deg);
+    }
+}
+
