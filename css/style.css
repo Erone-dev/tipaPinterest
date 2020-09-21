@@ -27,12 +27,9 @@ header {
 }
 .main-block {
   display: flex;
-  height: 100%;
-  width: 100%;
 }
 .content-sec {
-  width: 100%;
-  min-height: 74%;
+  width: 125%;
   display: flex;
   flex-wrap: wrap;
   padding-left: 2vw;
@@ -46,7 +43,6 @@ header {
   min-height: 100%;
   width: 0%;
   transform: translateX(100%);
-  position: relative;
 }
 .menu-items {
   margin-left: 2vw;

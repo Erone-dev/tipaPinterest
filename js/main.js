@@ -4,7 +4,14 @@ $(".menu").click(() => {
     $(".menu-btn").toggleClass("menu-icon-active");
     $(".menu-sec").toggleClass("open-menu");
     $(".menu").toggleClass("menu-move");
+    if(!($(".menu-sec").hasClass("open-menu"))){
+        setTimeout(()=>{$(".menu-items").toggleClass("shr-menu");}, 500)
+    } else {
+        $(".menu-items").removeClass("shr-menu");
+    }
 })
+
+
 
 var num = 5;
 
