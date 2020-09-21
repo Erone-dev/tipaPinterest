@@ -14,8 +14,6 @@ header {
   -moz-box-shadow: 0 0.195vw 0.32vw 0 #808080;
   box-shadow: 0 0.195vw 0.32vw 0 #808080;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 0 2.5vw;
   align-items: center;
   height: 60px;
@@ -27,6 +25,7 @@ header {
 }
 .main-block {
   display: flex;
+  position: relative;
 }
 .content-sec {
   width: 100%;
@@ -42,6 +41,12 @@ header {
   box-shadow: -0.26vw 0.065vw 0.455vw -0.065vw rgba(0, 0, 0, 0.68);
   width: 0%;
   transform: translateX(100%);
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  height: 100%;
 }
 .menu-items {
   margin-left: 2vw;

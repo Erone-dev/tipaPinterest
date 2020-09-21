@@ -4,7 +4,7 @@
 }
 .search {
   border-bottom: 0.1vw solid #04537D;
-  margin-left: auto;
+  margin: auto;
 }
 .search-input {
   display: flex;

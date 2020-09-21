@@ -18,8 +18,6 @@ header{
     -moz-box-shadow: 0 0.195vw 0.32vw 0 rgba(128,128,128,1);
     box-shadow: 0 0.195vw 0.32vw 0 rgba(128,128,128,1);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding:0 2.5vw;
     align-items: center;
     height: 60px;
@@ -35,6 +33,7 @@ header{
 
 .main-block{
     display: flex;
+    position: relative;
 
 }
 
@@ -54,6 +53,12 @@ header{
     //min-height: 100%;
     width: 0%;
     transform: translateX(100%);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    height: 100%;
 }
 
 .menu-items{
