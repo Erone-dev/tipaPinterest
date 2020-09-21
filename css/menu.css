@@ -2,9 +2,9 @@
   z-index: 1000;
   position: absolute;
   right: 2.5vw;
-  top: 5vw;
-  width: 2vw;
-  height: 2vw;
+  top: 77px;
+  width: 31px;
+  height: 31px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,18 +15,18 @@
 }
 .menu-btn {
   position: relative;
-  width: 2vw;
-  height: 0.32vw;
+  width: 31px;
+  height: 5px;
   background-color: #04537D;
   border-radius: 5em;
 }
 .menu-btn::before {
   position: absolute;
   left: 0;
-  top: -0.65vw;
+  top: -10px;
   content: '';
-  width: 2vw;
-  height: 0.32vw;
+  width: 31px;
+  height: 5px;
   background-color: #04537D;
   border-radius: 5em;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
@@ -34,10 +34,10 @@
 .menu-btn::after {
   position: absolute;
   left: 0;
-  top: 0.65vw;
+  top: 10px;
   content: '';
-  width: 2vw;
-  height: 0.32vw;
+  width: 31px;
+  height: 5px;
   background-color: #04537D;
   border-radius: 5em;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
