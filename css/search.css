@@ -1,6 +1,6 @@
 .loupe {
-  height: 1.3vw;
-  margin-bottom: -0.32vw;
+  height: 20px;
+  margin-bottom: -5px;
 }
 .search {
   border-bottom: 0.1vw solid #04537D;
@@ -11,29 +11,29 @@
 }
 .search-input input {
   border: none;
-  padding-bottom: 0.32vw;
-  width: 11vw;
-  font-size: 0.84vw;
+  padding-bottom: 5px;
+  width: 169px;
+  font-size: 13px;
 }
 .clean {
   display: block;
-  width: 1.3vw;
-  height: 1.3vw;
-  margin-bottom: -0.32vw;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
 }
 .clean-btn {
   background: black;
-  width: 1.3vw;
-  height: 0.13vw;
+  width: 20px;
+  height: 2px;
   position: relative;
-  top: 0.7vw;
+  top: 10px;
   transform: rotate(-45deg);
 }
 .clean-btn::before {
   content: '';
   background-color: black;
-  width: 1.3vw;
-  height: 0.13vw;
+  width: 20px;
+  height: 2px;
   position: absolute;
   transform: rotate(90deg);
 }

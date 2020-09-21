@@ -18,12 +18,12 @@ header {
   justify-content: space-between;
   padding: 0 2.5vw;
   align-items: center;
-  height: 3.91vw;
+  height: 60px;
 }
 .logo h1 {
   color: #04537D;
   font-weight: lighter;
-  font-size: 2.1vw;
+  font-size: 32px;
 }
 .main-block {
   display: flex;
