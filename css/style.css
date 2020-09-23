@@ -86,11 +86,11 @@ p {
 footer {
   background-color: #e7e3e1;
   color: #04537D;
-  height: 10vw;
+  height: 8vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 footer .fimgs img {
-  width: 60px;
+  width: 40px;
 }
