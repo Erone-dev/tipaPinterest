@@ -9,6 +9,7 @@
     <link href="css/search.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/pins.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Типа Pinterest</title>
 </head>
@@ -19,11 +20,16 @@
             <div class="logo">
                 <h1>Типа Pinterest</h1>
             </div>
-            <div class="search">
-                <div class="search-input">
-                    <img class="loupe" src="img/лупа.png">
-                    <input type="text" placeholder="Поиск">
-                    <div class="clean"><div class="clean-btn"></div></div> 
+            <div class="box">
+                <div class="search">
+                    <div class="search-input">
+                        <img class="loupe" src="img/лупа.png">
+                        <input type="text" placeholder="Поиск">
+                        <div class="clean"><img src="img/крест.png" alt=""></div> 
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu-btn"></div>
                 </div>
             </div>
         </header>
@@ -52,18 +58,24 @@
             </section>
         </main>
     </div>
-    <!-- <section class="menu-sec">
-        <div class="menu">
-            <div class="menu-btn"></div>
-        </div>
+    <section class="menu-sec">
         <div class="menu-items shr-menu">
-            <div class="account">
-                <img src="img/акк.png" alt="аккаунт">
-                <div class="name">Имя Фамилия</div>
+            <div class="login">
+                <img src="img/акк.png" alt="icon">
+                <div class="name"><p>Login</p></div>
             </div>
+            <div class="tabs"><p>Закладки</p></div>
+            <div class="notice"><p>Уведомления</p></div>
         </div>
-    </section> -->
-    <footer><p>Пильшаков Евгений Алексеевич ИС3А</p></footer>
+    </section>
+    <footer>
+        <p>Пильшаков Евгений Алексеевич ИС3А</p>
+        <div class="fimgs">
+            <a href=""><img src="img/face.png" alt=""></a>
+            <a href=""><img src="img/git.png" alt=""></a>
+            <a href=""><img src="img/you.png" alt=""></a>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

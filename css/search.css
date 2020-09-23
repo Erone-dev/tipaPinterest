@@ -1,38 +1,33 @@
 .loupe {
   height: 20px;
-  margin-bottom: -5px;
 }
 .search {
-  border-bottom: 0.1vw solid #04537D;
+  background-color: #e7e3e1;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 4px;
 }
 .search-input {
   display: flex;
 }
 .search-input input {
   border: none;
-  padding-bottom: 5px;
-  width: 169px;
+  width: 170px;
   font-size: 13px;
+  background-color: transparent;
 }
 .clean {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 20px;
   height: 20px;
-  margin-bottom: 5px;
+  filter: contrast(120%);
+  cursor: pointer;
 }
-.clean-btn {
-  background: black;
-  width: 20px;
-  height: 2px;
-  position: relative;
-  top: 10px;
-  transform: rotate(-45deg);
+.clean:hover {
+  filter: opacity(0.6);
 }
-.clean-btn::before {
-  content: '';
-  background-color: black;
-  width: 20px;
-  height: 2px;
-  position: absolute;
-  transform: rotate(90deg);
+.clean img {
+  height: inherit;
 }

@@ -9,34 +9,43 @@
 body {
   overflow-x: hidden;
 }
+p {
+  font-size: 25px;
+}
 .header {
   -webkit-box-shadow: 0 0.195vw 0.32vw 0 #808080;
   -moz-box-shadow: 0 0.195vw 0.32vw 0 #808080;
   box-shadow: 0 0.195vw 0.32vw 0 #808080;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
   display: flex;
   padding: 0 2.5vw;
   align-items: center;
-  height: 60px;
-  width: 100vw;
 }
 .logo {
-  margin-right: 2vw;
+  width: 50%;
 }
 .logo h1 {
   color: #04537D;
   font-weight: lighter;
   font-size: 32px;
 }
+.box {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
 .main-block {
   display: flex;
-  position: relative;
+  width: 100vw;
 }
 .content-sec {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 2vw;
-  padding-right: 6vw;
+  padding: 0 2vw;
   justify-content: space-evenly;
 }
 .wrapper {
@@ -51,23 +60,37 @@ body {
   transform: translateX(100%);
   position: fixed;
   right: 0;
-  top: 0;
+  top: 70px;
   z-index: 99;
   background-color: #fff;
   height: 100vh;
 }
 .menu-items {
-  margin-left: 2vw;
   margin-top: 2vw;
 }
-.account img {
-  width: 3vw;
+.menu-items > div {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  padding-left: 50px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+.menu-items > div:not(:first-of-type):hover {
+  background-color: #e7e3e1;
+}
+.login img {
+  width: 50px;
+  margin-right: 20px;
 }
 footer {
-  background-color: #04537D;
-  color: white;
+  background-color: #e7e3e1;
+  color: #04537D;
   height: 10vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+footer .fimgs img {
+  width: 60px;
 }
