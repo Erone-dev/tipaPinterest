@@ -1,14 +1,23 @@
 .pin {
-  padding: 1vw 0.3vw;
+  padding: 10px 10px;
+}
+.pin:hover .img div {
+  opacity: 1;
 }
 .img {
   height: 300px;
-  max-width: 300px;
-  border-radius: 1vw;
-  overflow: hidden;
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
-.img:hover {
-  opacity: 0.65;
+.img div {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 300px;
+  max-width: 300px;
+}
+.img div:hover img {
+  transform: scale(1.1);
 }
 .img img {
   height: inherit;

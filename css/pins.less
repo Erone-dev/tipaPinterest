@@ -1,17 +1,35 @@
 .pin{
-    padding: 1vw 0;
+    padding: 10px 10px;
+}
 
+.pin:hover{
+    .img{
+        div{
+            opacity: 1;
+        }
+    }  
 }
 
 .img{
-    height: 20vw;
-    //width: 14vw;
-    border-radius: 1vw;
-    &:hover{
-        opacity: 0.65;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    div{
+        border-radius: 20px;
+        overflow: hidden;
+        height: 300px;
+        max-width: 300px;
+        &:hover {
+            img{
+                transform: scale(1.1);
+            }
+        }
     }
+    
+    
     img{
-        width: inherit;
+        //width: inherit;
         height: inherit;
         border-radius: inherit;
     }

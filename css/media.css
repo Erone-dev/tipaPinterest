@@ -23,11 +23,18 @@
     max-width: 200px;
     height: 200px;
   }
+  .img div {
+    max-width: 200px;
+    height: 200px;
+  }
   .content-sec {
     padding: 0;
   }
   .search-input input {
     width: 33vw;
+  }
+  .clean:hover {
+    filter: opacity(1);
   }
   .menu-sec {
     position: fixed;
