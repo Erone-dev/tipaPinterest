@@ -23,6 +23,7 @@ p {
   display: flex;
   padding: 0 2.5vw;
   align-items: center;
+  margin-bottom: 10px;
 }
 .logo {
   width: 50%;
@@ -94,5 +95,5 @@ footer {
   align-items: center;
 }
 footer .fimgs img {
-  width: 40px;
+  width: 30px;
 }

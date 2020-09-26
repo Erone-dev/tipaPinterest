@@ -22,11 +22,14 @@ function addContent(link, img_link) {
     $(".content-sec").prepend(code);
     num += 1;
 }
-
-addContent("https://www.google.com/url?sa=i&url=https%3A%2F%2F72tv.ru%2Fpictures%2F11905-krasivye-cvety-foto.html&psig=AOvVaw3bOJWloK_O4l7CmAZaMqwT&ust=1600243323225000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDP2YnZ6usCFQAAAAAdAAAAABAK", "https://72tv.ru/uploads/posts/2018-08/1535284732_dekorativnyy-podsolnuh.jpg");
-addContent("https://www.google.com/url?sa=i&url=https%3A%2F%2Ffishki.net%2F2437187-neverojatno-krasivye-fotografii.html&psig=AOvVaw3bOJWloK_O4l7CmAZaMqwT&ust=1600243323225000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDP2YnZ6usCFQAAAAAdAAAAABAW", "https://cdn.fishki.net/upload/post/2017/11/21/2437187/dwwpkmjf2x8.jpg");
-addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/45/300/300");
-addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/78/200/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/200/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/160/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/100/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/96/200/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/91/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/58/200/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/61/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/132/200/300");
 addContent("https://www.google.com/url?sa=i&url=https%3A%2F%2Fworldi.ru%2Fsamye-prisamye-krasivye-tsvety-v-mire-10-foto%2F&psig=AOvVaw3bOJWloK_O4l7CmAZaMqwT&ust=1600243323225000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDP2YnZ6usCFQAAAAAdAAAAABA6", "https://worldi.ru/wp-content/uploads/2019/03/Samye-krasivye-tsvety-v-mire.jpg");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/98/200/300");
 addContent("https://www.google.com/url?sa=i&url=http%3A%2F%2Fduck.show%2Fkrasivye-foto-odno-mgnovenie.html&psig=AOvVaw1AJY04rxym-uoGa0F6caDJ&ust=1600250204837000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCJ1Nvy6usCFQAAAAAdAAAAABAD","https://duck.show/wp-content/uploads/2019/09/2019-09-17_17-11-17.png");
