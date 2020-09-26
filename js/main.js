@@ -15,18 +15,19 @@ $(".menu").click(() => {
 
 
 
-var num = 2;
+var num = 0;
 
 function addContent(link, img_link) {
     var code = "<div class='pin'><a href='" + link + "'><div class='img'><div><img src='" + img_link + "' alt='img-" + num + "'></div></div></a></div>"
     $(".content-sec").prepend(code);
     num += 1;
 }
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/1016/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/200/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/160/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/100/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/96/200/300");
-addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/91/300/300");
+addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/201/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/58/200/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/61/300/300");
 addContent("https://picsum.photos/id/237/200/300","https://picsum.photos/id/132/200/300");
