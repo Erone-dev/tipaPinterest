@@ -1,7 +1,7 @@
 .pin {
   padding: 10px 10px;
 }
-.pin:hover .img div {
+.pin .img div:hover {
   opacity: 1;
 }
 .img {

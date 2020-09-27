@@ -18,7 +18,7 @@ $(".menu").click(() => {
 var num = 0;
 
 function addContent(link, img_link) {
-    var code = "<div class='pin'><a href='" + link + "'><div class='img'><div><img src='" + img_link + "' alt='img-" + num + "'></div></div></a></div>"
+    var code = "<div class='pin'><a href='" + link + "'><div class='img'><div><img data-src='" + img_link + "' alt='img-" + num + "'></div></div></a></div>"
     $(".content-sec").prepend(code);
     num += 1;
 }

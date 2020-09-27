@@ -68,9 +68,6 @@ p {
   background-color: #fff;
   height: 100vh;
 }
-.menu-items {
-  margin-top: 2vw;
-}
 .menu-items > div {
   display: flex;
   align-items: center;

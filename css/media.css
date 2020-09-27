@@ -17,7 +17,7 @@
   .box {
     width: 100%;
     justify-content: space-between;
-    margin: 2.6vw;
+    margin: 10px;
   }
   .img {
     max-width: 200px;
@@ -51,6 +51,9 @@
   }
   .login img {
     width: 8vw;
+  }
+  .menu-items {
+    margin-top: 2vw;
   }
   .menu-items > div {
     padding: 2vw 0;
