@@ -35,11 +35,11 @@ $(".menu").click(() => {
     $(".menu-sec").toggleClass("open-menu");
     //$(".menu").toggleClass("menu-move");
     if(!($(".menu-sec").hasClass("open-menu"))){
-        setTimeout(()=>{$(".menu-items").toggleClass("shr-menu");}, 500);
-        $(".content-sec").removeClass("active-content");
+        setTimeout(()=>{$(".menu-items").addClass("shr-menu");}, 500);
+        // $(".content-sec").removeClass("active-content");
     } else {
         $(".menu-items").removeClass("shr-menu");
-        $(".content-sec").addClass("active-content");
+        //$(".content-sec").addClass("active-content");
     }
 })
 
