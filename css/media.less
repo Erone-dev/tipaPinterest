@@ -23,15 +23,27 @@
     
     
     .img {
-        max-width: 200px;
-        height: 200px;
+        max-width: 250px;
+        height: 250px;
         div{
-            max-width: 200px;
-            height: 200px;
+            max-width: 250px;
+            height: 250px;
         }
     }
     .content-sec{
         padding: 0;
+        &:hover{
+            .img{
+                div{
+                    opacity: 1;
+                    &:hover {
+                        img{
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .search-input{
@@ -70,8 +82,13 @@
     .menu-items > div{
         padding: 2vw 0;
         padding-left: 6vw;
+        &:not(:first-of-type):hover{
+            background-color: white ;
+        }
     }
     footer{
+        height: 80px;
+        flex-direction: column;
         p{
             font-size: 4vw;
         }

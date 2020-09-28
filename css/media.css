@@ -20,15 +20,21 @@
     margin: 10px;
   }
   .img {
-    max-width: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: 250px;
   }
   .img div {
-    max-width: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: 250px;
   }
   .content-sec {
     padding: 0;
+  }
+  .content-sec:hover .img div {
+    opacity: 1;
+  }
+  .content-sec:hover .img div:hover img {
+    transform: scale(1);
   }
   .search-input input {
     width: 33vw;
@@ -58,6 +64,13 @@
   .menu-items > div {
     padding: 2vw 0;
     padding-left: 6vw;
+  }
+  .menu-items > div:not(:first-of-type):hover {
+    background-color: white ;
+  }
+  footer {
+    height: 80px;
+    flex-direction: column;
   }
   footer p {
     font-size: 4vw;
