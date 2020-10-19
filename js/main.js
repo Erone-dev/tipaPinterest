@@ -1,14 +1,16 @@
 'use strict'
 
-var num = 0;
+let num = 0;
 
 function addContent(link, img_link) {
-    var code = "<div class='pin'><div class='img'><div><a target='_blank' href='" + link + "'><img data-src='" + img_link + "' alt='img-" + num + "'></a></div></div></div>"
+    let code = "<div class='pin'><div class='img'><div><img class='cont_im' id='pin-img' data-src='" + img_link + "' alt='" + link + "'></div></div></div>"
     $(".content-sec").prepend(code);
     num += 1;
 }
 
-var link = "https://picsum.photos/images";
+
+
+let link = "https://picsum.photos/images";
 addContent(link,"https://picsum.photos/id/1016/350/350");
 addContent(link,"https://picsum.photos/id/666/350/350");
 addContent(link,"https://picsum.photos/id/160/350/350");
@@ -33,20 +35,39 @@ addContent(link,"https://picsum.photos/id/342/350/350");
 $(".menu").click(() => {
     $(".menu-btn").toggleClass("menu-icon-active");
     $(".menu-sec").toggleClass("open-menu");
-    //$(".menu").toggleClass("menu-move");
     if(!($(".menu-sec").hasClass("open-menu"))){
         setTimeout(()=>{$(".menu-items").addClass("shr-menu");}, 500);
-        // $(".content-sec").removeClass("active-content");
     } else {
         $(".menu-items").removeClass("shr-menu");
-        //$(".content-sec").addClass("active-content");
     }
 })
 
-$("#search-inp").focusin(()=>{
-    $(".search").removeClass("anim");
-});
+// $("#search-inp").focusin(()=>{
+//     $(".search").removeClass("anim");
+// });
 
-$("#search-inp").focusout(()=>{
-    $(".search").addClass("anim");
-});
+// $("#search-inp").focusout(()=>{
+//     $(".search").addClass("anim");
+// });
+
+
+$(".pin").on("click", (e)=>{
+    let img_href;
+    let img_link;
+    if(e.target.id == "pin-img"){
+        img_href = e.target.getAttribute("data-src");
+        img_link = e.target.getAttribute("alt");
+        $("#selected-pin-img").attr("src", img_href);
+        $("#selected-pin-a").attr("href", img_link);
+        $("#selected-pin-a").text(img_link);
+        $(".selected-pin").removeClass("closed");
+        $(".selected-pin").addClass("opened");
+        $("body").css("overflow", "hidden");
+    }
+})
+
+$(".close-pin").on("click", ()=>{
+    $(".selected-pin").addClass("closed");
+    $(".selected-pin").removeClass("opened");
+    $("body").css("overflow", "auto");
+})

@@ -1,23 +1,6 @@
 .loupe {
   height: 20px;
 }
-@keyframes colors {
-  0% {
-    background: #e7e3e1;
-  }
-  10% {
-    background: #b4b4b4;
-  }
-  20% {
-    background: #e7e3e1;
-  }
-}
-.anim {
-  animation: colors 10s linear infinite;
-}
-.anim:hover {
-  animation: none;
-}
 .search {
   background-color: #e7e3e1;
   border-radius: 2rem;

@@ -24,11 +24,10 @@ p{
     position: sticky;
     top: 0;
     background: #fff;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     padding:0 2.5vw;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .logo{
@@ -53,10 +52,12 @@ p{
 }
 
 .content-sec{
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     padding: 0 6vw;
     justify-content: space-evenly;
+    z-index: 997;
     &:hover{
             .img{
                 div{
@@ -80,7 +81,7 @@ p{
     position: fixed;
     right: 0;
     top: 70px;
-    z-index: 99;
+    z-index: 999;
     background-color: #fff;
     height: 100%;
 }

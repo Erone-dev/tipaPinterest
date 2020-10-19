@@ -34,3 +34,46 @@
         border-radius: inherit;
     }
 }
+
+.closed{
+    display: none;
+}
+
+.opened{
+    display: flex;
+}
+
+.selected-pin{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.close-pin{
+    padding-left: 2.5vw;
+    img{
+        width: 50px;
+        filter: invert(100%);
+        &:hover{
+            filter: invert(80%);
+        }
+    }
+} 
+
+.opened-pin{
+    display: flex;
+    justify-content: center;
+    .pim{
+        background-color: white;
+        border-radius: 2rem;
+        padding: 30px 30px;
+        img{
+            padding-bottom: 10px;
+        }
+    }
+}
+
